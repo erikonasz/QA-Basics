@@ -1,5 +1,5 @@
 from unittest import TestCase
-from post import Post
+from blog.tests.post import Post
  
 class PostTest(TestCase):
     def test_create_post(self):
